@@ -1,0 +1,21 @@
+/* default colors */
+:root {
+  --color-primary: #286728;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #ffed4a;
+  --color-accent: #e3342f;
+}
+
+/* autumn theme */
+.theme-autumn {
+  --color-primary: #ff7e5f;
+  --color-secondary: #feb47b;
+  --color-accent: #ff6e7f;
+}
+
+/* winter theme */
+.theme-winter {
+  --color-primary: #69b7eb;
+  --color-secondary: #b3dbd3;
+  --color-accent: #f4d6db;
+}

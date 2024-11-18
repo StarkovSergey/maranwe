@@ -10,7 +10,7 @@ type Props = {
   href: string
 }
 
-export default function MenuItem({ children, href }: Props) {
+export function MenuItem({ children, href }: Props) {
   const pathname = usePathname()
 
   const isActive = pathname === href
@@ -19,9 +19,9 @@ export default function MenuItem({ children, href }: Props) {
     <li>
       <Link
         className={cn(
-          'text-muted-foreground block rounded-md p-2 hover:bg-white hover:text-foreground dark:hover:bg-zinc-700',
+          'block rounded-md p-2 hover:text-foreground hover:opacity-70',
           isActive &&
-            'bg-primary text-primary-foreground hover:bg-primary hover:text-primary-foreground dark:hover:bg-primary'
+            'bg-primary text-primary-foreground hover:bg-primary hover:text-primary-foreground hover:opacity-100'
         )}
         href={href}>
         {children}

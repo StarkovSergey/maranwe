@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
-import './globals.css'
+import '../styles/variables.css'
+import '../styles/globals.css'
 import { Poppins } from 'next/font/google'
 import { MainMenu } from '@/widgets/main-menu'
 
