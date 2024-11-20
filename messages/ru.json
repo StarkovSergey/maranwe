@@ -1,0 +1,13 @@
+{
+  "MainMenu": {
+    "About Project": "О проекте",
+    "Articles": "Статьи",
+    "Photos": "Фотографии",
+    "Inspirations": "Вдохновение",
+    "Support Project": "Поддержать проект"
+  },
+  "LocaleSwitcher": {
+    "ru": "Ru",
+    "en": "En"
+  }
+}

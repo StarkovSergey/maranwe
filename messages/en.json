@@ -1,0 +1,13 @@
+{
+  "MainMenu": {
+    "About Project": "About Project",
+    "Articles": "Articles",
+    "Photos": "Photos",
+    "Inspirations": "Inspirations",
+    "Support Project": "Support Project"
+  },
+  "LocaleSwitcher": {
+    "ru": "Ru",
+    "en": "En"
+  }
+}
